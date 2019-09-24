@@ -1,0 +1,23 @@
+@media screen and (max-width:768px){
+
+    .navBar{
+      display:block;
+      height:auto;
+      justify-content: center;
+      /* align-items: center; */
+    }
+  
+    .header-menu{
+      display:block;
+    }
+  
+    .header-logo{
+      text-align: center;
+    }
+  
+    .header-element{
+      /* display:initial; */
+      display:block;
+      text-align: center;
+    }
+}  

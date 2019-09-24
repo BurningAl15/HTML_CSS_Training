@@ -1,0 +1,101 @@
+body{
+    background-color:#757575;
+    font-family: 'Amatic SC',cursive;
+    margin: 0;
+    width: 100%;
+}
+
+h1
+h2
+h3
+h4
+h5
+h6{
+    font-family: 'Kalam',cursive;
+    font-weight: normal;
+}
+
+h1{
+    font-size: 40px;
+    line-height: 1.5em;
+    letter-spacing: 5px;
+    color:white;
+    margin: 100px 20px 70px 20px;
+}
+
+h1 strong{
+    color: #FC2B1F;
+}
+
+figure{
+    margin:0; 
+}
+
+ol,
+ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+/* ///////////////////////////////////////////// */
+/* ////////////////   HEADER   ///////////////// */
+/* ///////////////////////////////////////////// */
+
+.header{
+    background-color: #252525;
+   
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    color:white; 
+}
+
+.header-menu{
+    height: inherit;
+}
+
+.header-element{
+    display:flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+
+    height: 100%;
+
+    align-items: center;
+}
+
+.header-logo{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 20%;
+    flex-shrink: 0;
+}
+
+.navBar{
+    max-height: 10%;
+    height: inherit;
+    
+    max-width: 100%;
+    width:100%;
+    display:inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    flex-wrap: inherit;
+
+    color:white;
+}
+
+.header-link{
+    color:white;
+    text-decoration: none;
+
+    max-width: 100px;
+    max-height: 50px;
+
+    flex-shrink: 0;
+    font-size: 40px;
+    margin: 10px;
+    padding: 10px;
+}
